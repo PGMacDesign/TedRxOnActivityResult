@@ -1,4 +1,11 @@
+
+ 
+ [![JitPack](https://jitpack.io/v/pgmacdesign/TedRxOnActivityResult.svg)](https://jitpack.io/#pgmacdesign/TedRxOnActivityResult)
+ 
+ 
+
 # What is TedRxOnActivityResult
+
 When we use `startActivityForResult()`, we have to receive result/data in `onActivityResult()`.<br>
 
 ```java
@@ -47,11 +54,27 @@ If you use [RxJava](https://github.com/ReactiveX/RxJava), you want chaining like
 # Setup
 You can select library according to your `RxJava` version.
 
+
+To install, insert this into your projects root build.gradle file
+
+```groovy
+allprojects {
+    repositories {
+        jcenter()
+        google()
+        maven { url "https://jitpack.io" }
+        maven { url "https://maven.google.com" }
+    }
+}
+```
+
+Then add one (or more) of the following to the module-level `build.gradle` file.
+
 ## RxJava1
 [ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult-rx1/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult-rx1/_latestVersion)
 ```java
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult-rx1:x.y.z'
+    implementation 'com.github.PGMacDesign:tedonactivityresult-rx1:1.1.0'
 }
 ```
 
@@ -59,7 +82,7 @@ dependencies {
 [ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult-rx2/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult-rx2/_latestVersion)
 ```java
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult-rx2:x.y.z'
+    implementation 'com.github.PGMacDesign:tedonactivityresult-rx2:x.y.z'
 }
 ```
 
@@ -69,7 +92,7 @@ Even if you don't use RxJava, you can use this library.
 [ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult/_latestVersion)
 ```java
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult:x.y.z'
+    implementation 'com.github.PGMacDesign:tedonactivityresult:x.y.z'
 }
 ```
 
