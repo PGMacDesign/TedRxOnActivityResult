@@ -1,8 +1,7 @@
 
  
  [![JitPack](https://jitpack.io/v/pgmacdesign/TedRxOnActivityResult.svg)](https://jitpack.io/#pgmacdesign/TedRxOnActivityResult)
- 
- 
+
 
 # What is TedRxOnActivityResult
 
@@ -54,8 +53,7 @@ If you use [RxJava](https://github.com/ReactiveX/RxJava), you want chaining like
 # Setup
 You can select library according to your `RxJava` version.
 
-
-To install, insert this into your projects root build.gradle file
+To install, insert this into your project's root build.gradle file
 
 ```groovy
 allprojects {
@@ -71,7 +69,6 @@ allprojects {
 Then add one (or more) of the following to the module-level `build.gradle` file.
 
 ## RxJava1
-[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult-rx1/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult-rx1/_latestVersion)
 ```java
 dependencies {
     implementation 'com.github.PGMacDesign:tedonactivityresult-rx1:1.1.0'
@@ -79,20 +76,18 @@ dependencies {
 ```
 
 ## RxJava2
-[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult-rx2/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult-rx2/_latestVersion)
 ```java
 dependencies {
-    implementation 'com.github.PGMacDesign:tedonactivityresult-rx2:x.y.z'
+    implementation 'com.github.PGMacDesign:tedonactivityresult-rx2:1.1.0'
 }
 ```
 
 ## Normal
 Even if you don't use RxJava, you can use this library.
 <br><br>
-[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult/_latestVersion)
 ```java
 dependencies {
-    implementation 'com.github.PGMacDesign:tedonactivityresult:x.y.z'
+    implementation 'com.github.PGMacDesign:tedonactivityresult:1.1.0'
 }
 ```
 
