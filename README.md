@@ -71,14 +71,14 @@ Then add one (or more) of the following to the module-level `build.gradle` file.
 ## RxJava1
 ```java
 dependencies {
-    implementation 'com.github.PGMacDesign:tedonactivityresult-rx1:1.1.0'
+    implementation 'com.github.PGMacDesign:TedRxOnActivityResult-rx1:1.1.1'
 }
 ```
 
 ## RxJava2
 ```java
 dependencies {
-    implementation 'com.github.PGMacDesign:tedonactivityresult-rx2:1.1.0'
+    implementation 'com.github.PGMacDesign:TedRxOnActivityResult-rx2:1.1.1'
 }
 ```
 
@@ -87,7 +87,7 @@ Even if you don't use RxJava, you can use this library.
 <br><br>
 ```java
 dependencies {
-    implementation 'com.github.PGMacDesign:tedonactivityresult:1.1.0'
+    implementation 'com.github.PGMacDesign:TedRxOnActivityResult:1.1.1'
 }
 ```
 

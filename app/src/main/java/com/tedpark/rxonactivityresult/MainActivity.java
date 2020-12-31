@@ -2,7 +2,7 @@ package com.tedpark.rxonactivityresult;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import com.gun0912.tedonactivityresult.TedOnActivityResult;
 import com.tedpark.tedonactivityresult.rx2.TedRxOnActivityResult;
